@@ -34,7 +34,7 @@ class TextMessage:
  
     def disconnectPhone(self):
         self.ser.close()
-  sms = TextMessage("0123456789","This is the message to send.")
+sms = TextMessage("0123456789","This is the message to send.")
 sms.connectPhone()
 sms.sendMessage()
 sms.disconnectPhone()
